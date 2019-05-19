@@ -1,17 +1,16 @@
 body{
     background-image: url("/assets/images/blue bricks.jpg")
 }
-
 .Intro{
     background-color: blanchedalmond;
 }
 .random{
-    float: left;
+    float: left center;
 	width: 15%;
 	height: 60px;
 }
 .ratio{
-    float: left;
+    float: left center;
 	width: 15%;
 	height: 60px;
 }
