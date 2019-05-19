@@ -4,15 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assest/css/reset.css">
     <title>My Game</title>
 </head>
 <body>
-    <div class="Page">
-        <div class= "Intro">
-            <h1>My Crystals Collector</h1>
-        </div>
+    <div class= "Intro">
+       <h1>My Crystals Collector</h1>
     </div>
-
+    <div class="Directions"></div>
+    <h2>Instructions:</h2>
+    <ol>
+        <li>You will be given a random number at the start of your game.</li>
+        <li>There are four crystals below. By clicking on a crystal you will <br> add a specific amount of point to your total score.</li>
+        <li>You win the fame by matching your total score to random number,<br> youlose the fame if your total score goes above the random number.</li>
+        <li>The value of each cystal is hidden from you until you click on it</li>
+        <li>Each time when the game starts, <br> the game will change the values of each crystal.</li>
+    </ol>
+    </div>
+    <div class= "random">
+        <h2>Your Random Number is:
+            	<span id= "randomNumber"></span>
+        </h2>
+    <div class= "ratio">
+        <h2>Wins:
+         <span id= "numberWins"></span>
+         </br>
+         Losses: 
+         <span id= "numberLosses"></span>
+         </h2>
+    </div>
+    <div class= "crystals">
+        <img src="assets/images/ruby red.png" class= crystalpic id="one" alt= "Red Gem">
+        <img src="assets/images/blue diamond.jpg" class= crystalpic id="two" alt= "Blue Gem">
+        <img src="assets/images/green emerald-Stone-PNG.png" class= crystalpic id="three" alt= "Green Gem">
+        <img src="assets/images/orange.png" class= crystalpic id="four" alt= "Orange Gem">
+    </div>
+    <div class= "score">
+        <h2>Your total score is:
+        <span id="finalTotal"></span>
+        </h2>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/javascript.js"></script>
 </body>
 </html>
